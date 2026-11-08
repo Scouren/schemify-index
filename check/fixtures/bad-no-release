@@ -1,0 +1,7 @@
+entry gmid
+publisher openfat
+kind plugin
+license MIT
+categories sizing docs agent
+summary gm/Id lookup tables, sizing and design-centering from your PDK models.
+readme https://example.org/gmid/README.md

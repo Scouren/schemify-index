@@ -1,0 +1,17 @@
+entry gmid
+publisher openfat
+kind plugin
+license MIT
+categories sizing docs agent
+summary gm/Id lookup tables, sizing and design-centering from your PDK models.
+readme http://example.org/gmid/README.md
+release 0.5.0 url https://example.org/gmid-0.5.0.wasm 1111111111111111111111111111111111111111111111111111111111111111
+asset 421888 2026-11-02
+grant read:project Reads the cells it sizes
+grant write:project Stores its lookup tables in the project
+grant read:PDK_ROOT Reads the PDK's model files
+tool gmid.lookup Read a value from the lookup tables
+tool gmid.size Stage W for the selected devices from a gm/Id target
+release 0.4.1 url https://example.org/gmid-0.4.1.wasm 2222222222222222222222222222222222222222222222222222222222222222
+grant read:project Reads the cells it sizes
+grant write:project Stores its lookup tables in the project
