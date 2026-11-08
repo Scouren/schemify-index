@@ -1,0 +1,12 @@
+entry paper
+publisher openfat
+kind theme
+license MIT
+categories light
+summary Light canvas tuned for printing schematics and for the docs pages.
+readme
+includes canvas chrome waves docs
+variants light high-contrast
+token canvas.bg f4f1ea
+token canvas.wire 1f5fa8
+release 1.2.0 git https://example.org/paper 0123456789abcdef0123456789abcdef01234567

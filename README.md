@@ -6,3 +6,6 @@ request; Scouren reviews it, signs the index and publishes it with a copy of eve
 
 The listing format, the checks and the author tools (`schemify plugin new / check / preview /
 publish`) are described in the Schemify plugin docs: https://github.com/Scouren/Schemify-Plugins
+
+How to add or update a listing, the image rules and the review policy: [CONTRIBUTING.md](CONTRIBUTING.md).
+The pull-request checks are `check/check.py` (run it locally with `python3 check/check.py --base origin/main`).
